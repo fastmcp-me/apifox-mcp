@@ -17,6 +17,20 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "apifox",
+    "mcp",
+    "modelcontextprotocol",
+    "apifox-mcp",
+    "mcp-server"
+  ],
+  "author": "Juzisuan965",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juzisuan965/apifox-mcp"
+  },
+  "homepage": "https://github.com/Juzisuan965/apifox-mcp",
   "scripts": {
     "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
     "prepare": "npm run build",
