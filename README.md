@@ -62,6 +62,15 @@ npm run start
 
 - `APIFOX_AUTH`: Apifox 的认证令牌
 
+### 使用方法
+<img width="337" alt="image" src="https://github.com/user-attachments/assets/9688b499-7774-4f06-bfa0-d4f80412156e" />
+
+复制协作链接到 Cursor 中，让它帮你完成
+- 入参的TS类型定义
+- 出参的TS类型定义
+- 接口调用方法的定义
+- ...
+
 ### 调试
 
 由于 MCP 服务器通过标准输入输出(stdio)通信，调试可能比较困难。我们推荐使用[MCP Inspector](https://github.com/modelcontextprotocol/inspector)，可通过以下命令启动:
