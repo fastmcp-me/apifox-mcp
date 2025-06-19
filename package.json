@@ -1,6 +1,6 @@
 {
   "name": "@juzi965/apifox-mcp-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Apifox Tool for MCP",
   "private": false,
   "type": "module",
@@ -22,7 +22,8 @@
     "mcp",
     "modelcontextprotocol",
     "apifox-mcp",
-    "mcp-server"
+    "apifox-mcp-server",
+    "api endpoint"
   ],
   "author": "Juzisuan965",
   "license": "MIT",
