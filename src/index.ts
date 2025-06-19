@@ -17,7 +17,7 @@ const server = new McpServer({
 // ... set up server resources, tools, and prompts ...
 server.tool(
   "get_api_endpoint_info",
-  "获取apifox的接口定义信息，包括请求头、请求方式、请求参数、响应参数、响应头等",
+  "获取apifox的接口定义信息，数据符合OpenAPI 3.1规范。遇到例如：https://app.apifox.com/link/project/{projectId}/apis/api-{endpointId}的链接，请解析出projectId和endpointId，并调用本工具获取接口定义信息。",
   {
     projectId: z.number().describe("Apifox的项目ID"),
     endpointId: z.number().describe("接口Endpoint的ID"),
