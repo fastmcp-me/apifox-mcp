@@ -1,5 +1,7 @@
 # Apifox MCP Server
 
+[![npm version](https://img.shields.io/npm/v/@juzi965/apifox-mcp-server.svg)](https://www.npmjs.com/package/@juzi965/apifox-mcp-server)
+
 一个基于 Stdio 实现的模型上下文协议 (Model Context Protocol) 服务器，旨在无缝桥接 AI 助手与 Apifox 平台的 API 数据。
 
 允许 AI 助手通过标准化的协议直接、实时地获取和理解您在 Apifox 项目中定义的 API 接口详情，从而显著提升开发效率和代码生成质量。
@@ -45,14 +47,15 @@
 - `APIFOX_AUTH`: Apifox 的认证令牌
 
 ## 💡 使用方法
+
 <img width="337" alt="image" src="https://github.com/user-attachments/assets/9688b499-7774-4f06-bfa0-d4f80412156e" />
 
 复制协作链接到 Cursor 中，让它帮你完成
-- 入参的TS类型定义
-- 出参的TS类型定义
+
+- 入参的 TS 类型定义
+- 出参的 TS 类型定义
 - 接口调用方法的定义
   <img width="1264" alt="Xnip2025-06-19_14-30-13" src="https://github.com/user-attachments/assets/801002bb-c529-47e7-b52c-a6f909bbcd10" />
-
 
 ## 🛠️ 调试
 

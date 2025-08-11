@@ -1,6 +1,6 @@
 {
   "name": "@juzi965/apifox-mcp-server",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Apifox Tool for MCP",
   "private": false,
   "type": "module",
